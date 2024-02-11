@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mohamud Resells</title>
+        <link rel="stylesheet" href="style.css"> 
+
+        <style>
+
+            h1 {
+                font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
+                animation: changeColor 20s infinite;
+            }
+            @keyframes changeColor {
+                0% { color: black;}
+                50% { color: red;}
+                100% { color: white;}
+            }
+        
+        </style>
+    </head>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Artists</li>
+                <li>Contact</li>
+            </ul> 
+
+            <h1>Hottest Artists at the moment.</h1>
+        </nav>
+    </header>
+    <body>
+        <div class="product-container">
+            <div class="YoungboyNBA">
+            <img class="Youngboy Never Broke Again" src="nba-radar-1.png" alt="YoungBoy">
+            <h2>Youngboy</h2>
+            <p>Meet Kentrell DeSean Gaulden. You might know him as NBA YoungBoy. He's a song maker from America. His birthday? October 20, 1999. His hometown? Baton Rouge, Louisiana. By the close of the 2010s, he was a big name in the music game. People loved his dynamic rap style, filled with raw feeling. His songs? They tell tales of a stormy life, with brushes against the law and personal hurdles.
+            </p>
+           </div>
+    
+            <div class="Drakex">
+            <img class="Drake" src="648099513973bf001961dbd5.webp" alt="Drake">
+            <h2>Drake</h2>
+            <p>Drake, also known as Aubrey Drake Graham, comes from Canada. He's a rapper, singer, songwriter, actor, and business owner. His birthday? October 24, 1986, in Toronto, Canada.
+            </p>
+            </div>
+    
+            <div class="Veezex">
+            <img class="Veeze" src="ab6761610000e5eb7a96f6990c7005c723b4799f.jpg" alt="Veeze">
+            <h2>Veeze</h2>
+            <p>Veeze, born as Karon Vantress, is a talented American artist. From Detroit, Michigan, this rapper, singer, and songwriter has greatly impacted popular music. This eminent figure is known for mixing pop rap and trap elements into hip hop.
+            </p>
+            </div>
+
+            <audio id="Life Support - Youngboy" controls>
+                <source src="yb.mp3" type="audio/mp3">
+               
+            </audio>
+
+            <audio id="GOMD - Veeze" controls>
+                <source src="veeze.mp3" type="audio/mp3">
+                
+            </audio>
+
+            <audio id="6pm in New York - Drake" controls>
+                <source src="drake.mp3" type="audio/mp3">
+                
+            </audio>
+
+            <div class="6pm in New York - Drake">
+                <button id="playButton">Play</button>
+                <button id="pauseButton">Pause</button>
+                <input type="range" id="volumeControl" value="100" max="100">
+            </div>
+    </body>
+</html>

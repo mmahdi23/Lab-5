@@ -1,0 +1,267 @@
+header {
+    background-color: beige;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Verdana;
+    font-weight: bold;
+    font-style: italic;
+    justify-content: center;
+ }
+
+ body {
+    background-color: beige;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    font-family: Verdana;
+    gap: 15px;
+    align-items: center;
+    font-size: smaller;
+    font-weight: bold;
+ }
+
+
+ footer {
+    background-color: beige;
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: Verdana;
+    gap: 10px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center; 
+    position: absolute; top: 200px;
+ }
+
+ h2 {
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+ }
+
+ h1 {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    position: absolute;
+    top: 100px;
+    left: 5%;
+ }
+ 
+ nav {
+    margin: 20px;
+    padding-right: 5px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+ }
+
+ 
+
+ ul {
+
+ }
+
+ ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px;
+ }
+
+ ul li a {
+
+ }
+
+ 
+
+ .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-block: 5px;
+ }
+
+ .product-item {
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    left: 0%;
+
+ }
+
+ .product-item img {
+    width: 100%;
+    height: auto;
+ }
+ 
+ .product-item h2 {
+    margin: 10px 0;
+ }
+
+ .product-item p {
+    margin: 5px 0;
+    font-size: 7px;
+ }
+
+ .product-item span {
+    font-weight: bold;
+    font-style: italic;
+ }
+
+ .YoungboyNBA {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    position: absolute;
+    top: 240px;
+    left: 5%;
+
+ }
+
+ .YoungboyNBA img {
+    width: 100%;
+    height: auto;
+ }
+ 
+ .YoungboyNBA h2 {
+    margin: 10px 0;
+ }
+
+ .YoungboyNBA p {
+    margin: 5px 0;
+    font-size: 7px;
+ }
+
+ .YoungboyNBA span {
+    font-weight: bold;
+    font-style: italic;
+ }
+
+ .Drakex {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    position: absolute;
+    top: 240px;
+    left: 65%;
+
+ }
+
+ .Drakex img {
+    width: 100%;
+    height: auto;
+ }
+ 
+ .Drakex h2 {
+    margin: 10px 0;
+ }
+
+ .Drakex p {
+    margin: 5px 0;
+    font-size: 7px;
+ }
+
+ .Drakex span {
+    font-weight: bold;
+    font-style: italic;
+ }
+
+ .Veezex {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    position: absolute;
+    top: 240px;
+    left: 35%;
+
+ }
+
+ .Veezex img {
+    width: 100%;
+    height: auto;
+ }
+ 
+ .Veezex h2 {
+    margin: 10px 0;
+ }
+
+ .Veezex p {
+    margin: 5px 0;
+    font-size: 7px;
+ }
+
+ .Veezex span {
+    font-weight: bold;
+    font-style: italic;
+ }
+
+ audio {
+    display: none; 
+}
+
+
+.audio-container {
+    position: relative;
+}
+
+.SixPminNewYork {
+    position: absolute;
+    top: 100px;
+    left: 12px;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+}
+
+button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+}
+
+.LifeSupport {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+}
+
+button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+}
+
+.GOMD {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+}
+
+button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+}
+
